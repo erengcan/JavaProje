@@ -32,13 +32,12 @@ public class calculator {
             System.out.println(sayıBir + "*" +sayıİki + "="+ sonuç);
             break ;
         case '/' : sonuç =sayıBir/sayıİki;
-            System.out.println(sayıBir + "/8" +sayıİki + "="+ sonuç);
+            System.out.println(sayıBir + "/" +sayıİki + "="+ sonuç);
             break ;
 
         default: System.out.println("Çarpma ,bölme ,çıkarma veya toplama seçiniz.");
 
             }
-    okuyucu.close();
 
 
 
